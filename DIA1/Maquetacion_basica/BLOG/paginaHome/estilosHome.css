@@ -1,0 +1,60 @@
+
+div{
+    background-color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+
+   /* distrubucion de elementos segun eje secundario
+   -solo para cuando trabajamos con 1 linea de elementos */
+   align-items: center;
+   height: 50px;
+    width: 100%;
+    
+}
+
+.home{
+    color: white;
+    
+}
+
+.galeria{
+    color: white;
+  
+}
+
+.blog{
+    color: white;
+    
+}
+
+h1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-top: 70px;
+    margin-bottom: 45px;
+   
+}
+
+p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    height: 10px;
+    width: 700px;
+    text-align: left;
+    margin-bottom: 50px;
+    clear: left;
+}
+   
+img{
+
+    float: right;
+    margin-top: 50px;
+    margin-right: 120px;
+    height: 450px;
+    width: 320px;
+   
+    
+}

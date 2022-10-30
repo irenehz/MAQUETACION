@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+
+.divcabecera{
+    background-color: black;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+    align-items: center;
+    
+}
+
+.section--home{
+    color: white;   
+}
+.section--galeria{
+    color: white;
+}
+.section--blog{
+    color: white;   
+}
+
+
+
+
+.divImagenes
+{
+    
+    height: 92%;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    
+   
+}
+
+.divLineaimagenes1{
+    height: 50%;
+    
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-around;  */
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.div1{
+   
+    height: 100%;
+    width: 33%;
+    object-fit: cover;
+}
+
+.div2{
+   
+    height: 100%;
+    width: 33%;
+}
+.div3{
+    
+    height: 100%; 
+    width: 33%;
+    object-fit: cover;
+}
+
+.divLineaimagenes2{
+   
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-around;  */
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    height: 50%;
+}
+
+.div4{
+    height: 100%;
+    width: 33%;
+}
+.div5{
+    height: 100%;
+    width: 33%;
+}
+.div6{
+    height: 100%;
+    width: 33%;
+}
+
+
+
+/* img{
+
+    /* float: right;
+    margin-top: 50px;
+    margin-right: 120px;
+    height: 450px;
+    width: 320px;
+    */
+    
+} */

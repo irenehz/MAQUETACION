@@ -1,0 +1,77 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+
+.divNavegador{
+    background-color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+
+   /* distrubucion de elementos segun eje secundario
+   -solo para cuando trabajamos con 1 linea de elementos */
+   align-items: center;
+   height: 10%;
+    width: 100%;
+    
+}
+
+.home{
+    color: white;
+    
+}
+
+.galeria{
+    color: white;
+  
+}
+
+.blog{
+    color: white;
+    
+}
+
+
+.h1Titulo{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+   height: 20%;
+   width: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}.cuerpodelaWeb
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content:center;
+
+    height: 70%;
+    width: 100%;
+}
+
+.divImagen{
+
+   height: 60%;
+    width: 60%;
+    
+}
+
+.parrafo{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40;
+  
+    width: 40%;
+}
+   
